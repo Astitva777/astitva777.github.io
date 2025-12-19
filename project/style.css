@@ -1,0 +1,273 @@
+body {
+    background-color: rgb(246, 244, 244);
+}
+.main-nav {
+    height: 50px;
+    width: 1455px;
+    display: flex;
+    margin-top: 7px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.logo {
+    display: flex;
+     margin-left: 10px;
+    justify-content: left;
+    color: rgb(210, 51, 62);
+    font-family: grand hotel, cursive;
+}
+.logo-sufix {
+    color: rgb(52, 52, 54);
+    font-family: grand hotel, cursive;
+    margin-left: 2px;
+    font-size: 24px;
+    color: rgb(227, 128, 134);
+}
+.searchbar input{
+    margin-left: 40px;
+    width: 700px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(214, 213, 213);
+    padding: 10px 20px ;
+}
+.searchbar i {
+    margin-left: -60px;
+    color: rgb(100, 97, 97);
+}
+.searchbar button {
+    border: none;
+    background-color: none;
+
+}
+.searchbar button:hover {
+    cursor: pointer;
+    
+}
+.location i {
+    margin-left: 10px;
+    color: rgb(196, 192, 192);
+}
+.location span {
+    margin-left: 5px;
+    font-size: 16px;
+    color: rgb(72, 71, 71);
+    font-family: Arial, sans-serif;
+}
+.location:hover {
+    cursor: pointer;
+
+}
+.signin button {
+    margin-left: 40px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 20px ;
+}
+
+.signin button:hover {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+.menubar {
+    margin-left: 240px;
+    display: flex;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(89, 89, 89);
+}
+.menubar:hover {
+    cursor: pointer;
+}
+.sidebar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    height: 40px;
+    width: 1455px;
+    border-radius: 10px; ;
+    background-color: lightpink;
+    margin-top: 3px;
+}
+.sidebar a {
+    padding: 10px 16px;
+    text-decoration: wavy;
+    color: rgb(5, 2, 15);
+    font-size: 20px;
+}
+    
+.banner {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.best-seller {
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(38, 37, 37);
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 20px;
+    margin-right: 500px;
+}
+.new-arrivals {
+        font-family: cursive;
+    font-size: 30px;
+    color: rgb(38, 37, 37);
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 20px;
+    margin-right: 500px;
+}
+
+
+.card {
+    height: 340px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img {
+    padding: 10px;
+    align-items: center;
+}
+.img img {
+    border-radius: 10px;
+    height: 118.125px;
+    width: 210px;
+}
+.topics {
+    padding: 1px 10px ;
+    font-family: cursive;
+    font-size: 10px;
+    color: #6a6a6a;
+
+}
+.topics p {
+    border: #6a6a6a solid 1px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    display: inline;
+}
+.content h3 {
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.about-drink {
+    font-size: 14px;
+    padding: 0px 10px;
+    color: #4a4a4a;
+}
+.tax {
+    font-size: 10px;
+    padding: 0px 10px;
+    color: #7b7878;
+}
+.more i {
+    color: rgb(52, 52, 54);
+    font-size: 14px;
+    padding: 0px 0px;
+    text-align: center;
+}
+.more {
+    border-radius: 7px;
+    width: 40px;
+    border: 0px;
+    background-color: rgb(168, 168, 173);
+    text-align: center;
+    margin-left: 88px;
+    margin-top: 30px;
+}
+.more i:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+.topic-2 {
+    display: block;
+    margin-left: 60px;
+    padding: 1px 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 30px;
+}
+.topic-2 p {
+    font-family: cursive ;
+     color: #171717;
+     
+}
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0px;
+    align-items: center;
+    align-content: center;
+}
+.cards-2 {
+    height: 150px;
+    width: 120px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.cards-2:hover {
+     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards-2 img {
+    height: 150px;
+    width: 120px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+/* .topics {
+    padding: 1px 10px ;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #6a6a6a;
+
+}
+.topics p {
+    border: #6a6a6a solid 1px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    display: inline;
+} */
